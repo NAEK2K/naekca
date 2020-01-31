@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+footer {
+    text-align: center;
+}
+
 @media screen and (max-width: 800px) {
     body {
         max-width: 80%;
