@@ -1,0 +1,15 @@
+body {
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        max-width: 80%;
+    }
+}
