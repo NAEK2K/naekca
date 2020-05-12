@@ -1,0 +1,29 @@
+body {
+    background-color: #2e3440;
+    color: #d8dee9;
+    font-family: 'Roboto', sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+hr {
+    color: #d8dee9;
+}
+
+a {
+    text-decoration: none;
+    color: #88c0d0;
+}
+
+a:hover {
+    color: #d8dee9;
+}
+
+li {
+    list-style-type: square;
+}
+
+li, p {
+    font-size: 17px;
+}

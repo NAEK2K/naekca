@@ -2,51 +2,56 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/f63c7983ea.js" crossorigin="anonymous"></script>
     <title>NAEK</title>
 </head>
 
 <body>
-    <h1>NAEK</h1>
-    <p><a href="https://github.com/naek2k">GitHub</a> - <a href="https://www.linkedin.com/in/naek/">LinkedIn</a></p>
-    <hr>
-    <h2>About Me</h2>
-    <p>I'm Nick! Currently studying <b>Computer and Internet Security</b> at <b>Carleton University</b>. I've had an
-        interest in security and programming ever since I started running game servers when I was younger. That interest
-        snowballed into me pursuing a degree in computer science!</p>
-    <h2>Hobbies</h2>
-    <h3>Video Games</h3>
-    <p>Currently my favorite games are Tekken 7, League of Legends, and Modern Warfare. I love games that have a
-        competitive edge to them so I tend to play multiplayer games with a competitive scene.</p>
-    <h3>Lifting</h3>
-    <p>Been lifting on and off since I was 16 (19 now) and while I've gotten a bit inconsistent since university
-        started, it's something that I stick with because of how much it has improved my life. I'd love to be able to
-        hit the 1000lb club with my lifts, only 30lbs to go!</p>
-    <h3>Cars</h3>
-    <p>Been in love with cars ever since I got my first car, a MINI Countryman. One of my criteria for "making it" is to
-        own my very own Challenger Hellcat Redeye.</p>
-    <h2>Projects</h2>
-    <h3>1 In The Socket</h3>
-    <p>Technology: JS, NodeJS, SocketIO, p5.js</p>
-    <p>Multiplayer online top down 2D shooter with hit scan weapons for fast-paced competitive gameplay.</p>
-    <p>Links: <a href="https://github.com/cuHacks2020/1InTheSocket">GitHub</a></p>
-    <h3>RNG Guessing Game</h3>
-    <p>Technology: HTML, CSS, and JS</p>
-    <p>A fun game that tests how good you are at guessing.</p>
-    <p>Links: <a href="https://github.com/NAEK2K/goodRNG">GitHub</a> - <a href="https://goodrng.com">GoodRNG</a></p>
-    <h3>Walking Simulator</h3>
-    <p>Technology: C++</p>
-    <p>Simple C++ terminal game where you simply walk around on a 10x10 grid. You are the player, the number 1, and you
-        collect points, the number 0. The game has no end and has no purpose. This program was not tested on Windows
-        yet.</p>
-    <p>Links <a href="https://github.com/NAEK2K/walking-simulator">GitHub</a></p>
-    <footer>
-        <p>&copy NAEK 2020</p>
-    </footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="https://avatars2.githubusercontent.com/u/55280957?s=460&u=54cd3cc1f79dd59d91d02f01b043440496a64387&v=4" alt="" class="img-thumbnail">
+                <b>NAEK</b>
+                <p>Computer & Internet Security</p>
+                <p><a href="https://github.com/naek2k"><i class="fab fa-github"></i> GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/naek/"><i class="fab fa-linkedin-in"></i> LinkedIn</a></p>
+                <p><a href="https://www.twitter.com/NAEK2K/"><i class="fab fa-twitter"></i> Twitter</a></p>
+            </div>
+            <div class="col-9">
+                <h1>Nicolas El-Khoury</h1>
+                <h2>About</h2>
+                <p>Hey, my name's Nick and I'm currently enrolled in Carleton Unversity's Computer Science program, specifically the Computer & Internet Security stream. My passion for programming began when I ran game servers for my friends when I was younger. This was my introduction to the world of computers and learning how to use them because prior to this I hardly knew how to avoid getting toolbars.</p>
+                <h2>Projects</h2>
+                <p><b>To-do List - <a href="https://github.com/naek2k/todo-list">GitHub</a></b></p>
+                <p>A simple to-do list that uses NodeJS for the backend and lowdb for persistent storage.</p>
+                <img src="img/todo.png" alt="" class="img-fluid" style="max-width: 400px; max-height: 400px;">
+                <p><b>Online Trivia Game - <a href="https://github.com/naek2k/online-trivia-game">GitHub</a></b></p>
+                <p>An online trivia game that allows multiple users to be playing in different trivia game rooms. Backend is made with NodeJS and SocketIO. Front-end uses my amazing CSS skills.</p>
+                <img src="img/trivia-main.png" alt="" class="img-fluid" style="max-width: 400px; max-height: 400px;">
+                <img src="img/trivia-join.png" alt="" class="img-fluid" style="max-width: 400px; max-height: 400px;">
+                <img src="img/trivia-multiplayer.png" alt="" class="img-fluid" style="max-width: 400px; max-height: 400px;">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<style>
+    body {
+        padding: 20px;
+    }
+</style>
