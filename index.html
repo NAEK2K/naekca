@@ -27,21 +27,29 @@
         </div>
     </div>
     <hr>
-    <h2>About</h2>
-    <ul>
-        <li><strong>Name:</strong> Nicolas El-Khoury</li>
-        <li><strong>School:</strong> Carleton University</li>
-        <li><strong>Year:</strong> 3rd</li>
-        <li><strong>Program:</strong> Computer & Internet Security</li>
-        <li><strong>Major GPA:</strong> 11.22/12.00</li>
-    </ul>
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Web Development:</strong> HTML/CSS/JS, NodeJS, Express</li>
-        <li><strong>Software Development:</strong> C/C++, Java, Python</li>
-        <li><strong>Databases:</strong> MongoDB, PostgreSQL, Lowdb</li>
-        <li><strong>Operating Systems:</strong> Windows, Linux</li>
-    </ul>
+    <div class="pure-g">
+        <div class="pure-u-1-2">
+            <h2>About</h2>
+            <ul>
+                <li><strong>Name:</strong> Nicolas El-Khoury</li>
+                <li><strong>School:</strong> Carleton University</li>
+                <li><strong>Year:</strong> 3rd</li>
+                <li><strong>Program:</strong> Computer & Internet Security</li>
+                <li><strong>Major GPA:</strong> 11.22/12.00</li>
+            </ul>
+        </div>
+        <div class="pure-u-1-2">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Web Development:</strong> HTML/CSS/JS, NodeJS, Express</li>
+                <li><strong>Software Development:</strong> C/C++, Java, Python</li>
+                <li><strong>Databases:</strong> MongoDB, PostgreSQL, Lowdb</li>
+                <li><strong>Operating Systems:</strong> Windows, Linux</li>
+            </ul>
+        </div>
+    </div>
+
+
     <h2>Projects</h2>
     <div class="pure-g">
         <div class="pure-u-1-2">
@@ -52,7 +60,8 @@
         </div>
         <div class="pure-u-1-2">
             <h3>Typing Test</h3>
-            <p><a href="https://github.com/naek2k/typing-test">GitHub</a> <a href="https://naek.ca/typing-test">Live</a></p>
+            <p><a href="https://github.com/naek2k/typing-test">GitHub</a> <a href="https://naek.ca/typing-test">Live</a>
+            </p>
             <p>jQuery, UnderscoreJS</p>
             <p>An entirely client side typing test.</p>
         </div>
@@ -60,13 +69,15 @@
     <div class="pure-g">
         <div class="pure-u-1-2">
             <h3>Stock Scraper</h3>
-            <p><a href="https://github.com/naek2k/stock-scraper-api">GitHub</a> <a href="http://vps0.naek.ca:8080">Live</a></p>
+            <p><a href="https://github.com/naek2k/stock-scraper-api">GitHub</a> <a
+                    href="http://vps0.naek.ca:8080">Live</a></p>
             <p>NodeJS, Express, got, cheerio</p>
             <p>A web scraper that pulls stock data, basic front-end for interaction.</p>
         </div>
         <div class="pure-u-1-2">
             <h3>Online Trivia Game</h3>
-            <p><a href="https://github.com/naek2k/online-trivia-game">GitHub</a> <a href="http://vps0.naek.ca:8082">Live</a></p>
+            <p><a href="https://github.com/naek2k/online-trivia-game">GitHub</a> <a
+                    href="http://vps0.naek.ca:8082">Live</a></p>
             <p>NodeJS, Express, SocketIO</p>
             <p>A trivia site that supports multiple players and sessions, pulls trivia data from an API.</p>
         </div>
@@ -76,7 +87,8 @@
             <h3>NAEK Bot (Discord)</h3>
             <p><a href="https://github.com/naek2k/naek-bot-discord">GitHub</a></p>
             <p>NodeJS, Lowdb, DiscordJS</p>
-            <p>A discord bot that supports multiple servers, features role management, persistent storage, and greetings.</p>
+            <p>A discord bot that supports multiple servers, features role management, persistent storage, and
+                greetings.</p>
         </div>
         <div class="pure-u-1-2">
             <h3>NAEK.ca</h3>
@@ -109,14 +121,18 @@
     }
 
     ul {
-        margin-left: 0;
+        padding-left: 0;
+    }
+
+    ul li {
+        list-style-position: inside;
     }
 
     a {
         text-decoration: none;
-        color:#1662db;
+        color: #1662db;
     }
-    
+
     .footer {
         text-align: center;
     }
