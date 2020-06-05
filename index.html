@@ -1,143 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NAEK</title>
-</head>
-
-<body>
-    <div class="header">
-        <h1>NAEK</h1>
-        <div class="pure-menu pure-menu-horizontal">
-            <ul class="pure-menu-list">
-                <ul class="pure-menu-item">
-                    <a href="https://github.com/naek2k" class="pure-menu-link">GitHub</a>
-                </ul>
-                <ul class="pure-menu-item">
-                    <a href="https://www.linkedin.com/in/naek/" class="pure-menu-link">LinkedIn</a>
-                </ul>
-                <ul class="pure-menu-item">
-                    <a href="/resume.pdf" class="pure-menu-link">Resume</a>
-                </ul>
-            </ul>
-        </div>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <span class="h1">NAEK</span>
+      </div>
+      <div class="right">
+        <span>Nicolas El-Khoury</span>
+        <span>Carleton University</span>
+        <span>Computer & Internet Security</span>
+        <span>3rd Year Undergraduate</span>
+        <span>naek2k@outlook.com</span>
+      </div>
     </div>
-    <hr>
-    <div class="pure-g">
-        <div class="pure-u-1-2">
-            <h2>About</h2>
-            <ul>
-                <li><strong>Name:</strong> Nicolas El-Khoury</li>
-                <li><strong>School:</strong> Carleton University</li>
-                <li><strong>Year:</strong> 3rd</li>
-                <li><strong>Program:</strong> Computer & Internet Security</li>
-                <li><strong>Major GPA:</strong> 11.22/12.00</li>
-            </ul>
-        </div>
-        <div class="pure-u-1-2">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Web Development:</strong> HTML/CSS/JS, NodeJS, Express</li>
-                <li><strong>Software Development:</strong> C/C++, Java, Python</li>
-                <li><strong>Databases:</strong> MongoDB, PostgreSQL, Lowdb</li>
-                <li><strong>Operating Systems:</strong> Windows, Linux</li>
-            </ul>
-        </div>
+    <div class="container">
+      <div class="left">
+        <span class="h1">Links</span>
+      </div>
+      <div class="right">
+        <span><a href="https://github.com/naek2k">GitHub</a></span>
+        <span><a href="https://linkedin.com/in/naek">LinkedIn</a></span>
+        <span><a href="https://naek.ca/resume.pdf">Resume</a></span>
+      </div>
     </div>
-    <div class="pure-g">
-        <div class="pure-u-1">
-            <h2>Projects</h2>
-            <div class="pure-g">
-                <div class="pure-u-1-2">
-                    <h3>Todo List</h3>
-                    <p><a href="https://github.com/naek2k/todo-list">GitHub</a> <a
-                            href="http://vps0.naek.ca:8081">Live</a></p>
-                    <p>NodeJS, Express, Lowdb, jQuery, Bootstrap</p>
-                    <p>A simple todo list app with persistent storage.</p>
-                </div>
-                <div class="pure-u-1-2">
-                    <h3>Typing Test</h3>
-                    <p><a href="https://github.com/naek2k/typing-test">GitHub</a> <a
-                            href="https://naek.ca/typing-test">Live</a>
-                    </p>
-                    <p>jQuery, UnderscoreJS</p>
-                    <p>An entirely client side typing test.</p>
-                </div>
-            </div>
-            <div class="pure-g">
-                <div class="pure-u-1-2">
-                    <h3>Stock Scraper</h3>
-                    <p><a href="https://github.com/naek2k/stock-scraper-api">GitHub</a> <a
-                            href="http://vps0.naek.ca:8080">Live</a></p>
-                    <p>NodeJS, Express, got, cheerio</p>
-                    <p>A web scraper that pulls stock data, basic front-end for interaction.</p>
-                </div>
-                <div class="pure-u-1-2">
-                    <h3>Online Trivia Game</h3>
-                    <p><a href="https://github.com/naek2k/online-trivia-game">GitHub</a> <a
-                            href="http://vps0.naek.ca:8082">Live</a></p>
-                    <p>NodeJS, Express, SocketIO</p>
-                    <p>A trivia site that supports multiple players and sessions, pulls trivia data from an API.</p>
-                </div>
-            </div>
-            <div class="pure-g">
-                <div class="pure-u-1-2">
-                    <h3>NAEK Bot (Discord)</h3>
-                    <p><a href="https://github.com/naek2k/naek-bot-discord">GitHub</a></p>
-                    <p>NodeJS, Lowdb, DiscordJS</p>
-                    <p>A discord bot that supports multiple servers, features role management, persistent storage, and
-                        greetings.</p>
-                </div>
-                <div class="pure-u-1-2">
-                    <h3>NAEK.ca</h3>
-                    <p><a href="https://github.com/naek2k/naekca">GitHub</a> <a href="http://naek.ca">Live</a></p>
-                    <p>PureCSS</p>
-                    <p>My personal site to showcase my projects.</p>
-                </div>
-            </div>
-        </div>
+    <div class="container">
+      <div class="left">
+        <span class="h1">Skills</span>
+      </div>
+      <div class="right">
+        <span><strong>Web Dev:</strong> NodeJS, ReactJS, Express</span>
+        <span><strong>Soft Dev:</strong> C/C++, Java, Python</span>
+        <span><strong>Databases:</strong> MongoDB, PostgreSQL</span>
+        <span><strong>OS:</strong> Windows, Linux</span>
+      </div>
     </div>
-    <div class="pure-g">
-        <div class="pure-u-1">
-            <h2>Interests</h2>
-            <p>Web Development • Cyber Security • Servers/Networking</p>
-        </div>
+    <div class="container">
+      <div class="left">
+        <span class="h1">Projects</span>
+      </div>
+      <div class="right">
+        <span>Stock Tracker | <a href="https://github.com/naek2k/stocktracker">GitHub</a></span>
+        <li>NodeJS, ReactJS, Lowdb</li>
+        <li>A stock tracker with account support.</li>
+        <span>Todo List | <a href="https://github.com/naek2k/todo-list">GitHub</a> | <a href="http://vps0.naek.ca:8081">Live</a></span>
+        <li>NodeJS, Express, Lowdb, jQuery, Bootstrap</li>
+        <li>A simple todo list with persistent storage.</li>
+        <span>Typing Test | <a href="https://github.com/naek2k/typing-test">GitHub</a> | <a href="https://naek.ca/typing-test">Live</a></span>
+        <li>jQuery, UnderscoreJS</li>
+        <li>An entirely client side typing test.</li>
+        <span>Online Trivia Game | <a href="https://github.com/naek2k/online-trivia-game">GitHub</a> | <a href="http://vps0.naek.ca:8082/">Live</a></span>
+        <li>NodeJS, Express, SocketIO</li>
+        <li>A multiplayer trivia site.</li>
+        <span>NAEK Bot (Discord) | <a href="https://github.com/naek2k/naek-bot-discord">GitHub</a></span>
+        <li>NodeJS, Lowdb, DiscordJS</li>
+        <li>A role management discord bot.</li>
+        <span>NAEK.ca | <a href="https://github.com/naek2k/naekca">GitHub</a></span>
+        <li>HTML, CSS</li>
+        <li>My personal site.</li>
+      </div>
     </div>
-    <div class="footer">
-        <p>Created by <a href="https://naek.ca">NAEK</a></p>
-    </div>
-</body>
-
+  </body>
 </html>
-<style>
-    body {
-        max-width: 800px;
-        margin: auto;
-        padding: 5px;
-    }
-
-    .header {
-        text-align: center;
-    }
-
-    ul {
-        padding-left: 0;
-    }
-
-    ul li {
-        list-style-position: inside;
-    }
-
-    a {
-        text-decoration: none;
-        color: #1662db;
-    }
-
-    .footer {
-        text-align: center;
-    }
-</style>
