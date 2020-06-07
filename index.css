@@ -3,11 +3,14 @@ body {
   max-width: 800px;
   font-family: "Valera Round", sans-serif;
   line-height: 24px;
+  background-color: #2e3440;
+  color: #d8dee9;
 }
-
+.parent-container {
+  margin-top: 50px;
+}
 .container {
   display: flex;
-  margin-top: 10px;
 }
 
 .left {
