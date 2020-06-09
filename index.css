@@ -1,63 +1,19 @@
 body {
   margin: auto;
   max-width: 800px;
-  font-family: "Valera Round", sans-serif;
-  line-height: 24px;
-  background-color: #2e3440;
-  color: #d8dee9;
+  padding: 10px;
 }
-.parent-container {
-  margin-top: 50px;
-}
-.container {
+
+.project-container {
   display: flex;
 }
 
-.left {
-  margin-right: 20px;
-  width: 100px;
-  min-width: 100px;
-  text-align: right;
+.project-item {
+  width: 600px;
 }
 
-.right {
-  max-width: 400px;
-}
-
-h1,
-h2 {
-  padding: 0;
-  line-height: 0;
-}
-
-span {
-  display: block;
-}
-
-span {
-  display: block;
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-span.h1 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #0781ba;
-}
-
-a:visited {
-  color: #0781ba;
-}
-
-a:hover {
-  color: #5ab2db;
-}
-
-li {
-  margin-left: 40px;
+@media only screen and (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+  }
 }

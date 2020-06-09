@@ -4,70 +4,108 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NAEK</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
     <link rel="stylesheet" href="index.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <div class="parent-container">
-      <div class="container">
-        <div class="left">
-          <span class="h1">NAEK</span>
-        </div>
-        <div class="right">
-          <span>Nicolas El-Khoury</span>
-          <span>Carleton University</span>
-          <span>Computer & Internet Security</span>
-          <span>3rd Year Undergraduate</span>
-          <span>naek2k@outlook.com</span>
-        </div>
-      </div>
-      <div class="container">
-        <div class="left">
-          <span class="h1">Links</span>
-        </div>
-        <div class="right">
-          <span><a href="https://github.com/naek2k">GitHub</a></span>
-          <span><a href="https://linkedin.com/in/naek">LinkedIn</a></span>
-          <span><a href="https://naek.ca/resume.pdf">Resume</a></span>
-        </div>
-      </div>
-      <div class="container">
-        <div class="left">
-          <span class="h1">Skills</span>
-        </div>
-        <div class="right">
-          <span><strong>Web Dev:</strong> NodeJS, ReactJS, Express</span>
-          <span><strong>Soft Dev:</strong> C/C++, Java, Python</span>
-          <span><strong>Databases:</strong> MongoDB, PostgreSQL</span>
-          <span><strong>OS:</strong> Windows, Linux</span>
-        </div>
-      </div>
-      <div class="container">
-        <div class="left">
-          <span class="h1">Projects</span>
-        </div>
-        <div class="right">
-          <span>Stock Tracker | <a href="https://github.com/naek2k/stocktracker">GitHub</a></span>
+  <body class="terminal">
+    <div class="logo terminal-prompt">NAEK</div>
+    <p>
+      Hey! I'm Nicolas El-Khoury, a 3rd year computer science undergraduate in the computer and internet security stream at Carleton University.
+    </p>
+    <p>If you want to send me an email: naek2k@outlook.com</p>
+    <h2>Links</h2>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/NAEK2K">GitHub</a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/naek">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://naek.ca/resume.pdf">Resume</a>
+        </li>
+      </ul>
+    </nav>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Web Dev:</strong> NodeJS, ReactJS, Express</li>
+      <li><strong>Soft Dev:</strong> C/C++, Java, Python</li>
+      <li><strong>DBMS:</strong> MongoDB, PostgreSQL</li>
+      <li><strong>OS:</strong> Windows, Linux</li>
+    </ul>
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-item">
+        <span>Stock Tracker | <a href="https://github.com/naek2k/stocktracker">GitHub</a></span>
+        <ul>
           <li>NodeJS, ReactJS, Lowdb</li>
           <li>A stock tracker with account support.</li>
-          <span>Todo List | <a href="https://github.com/naek2k/todo-list">GitHub</a> | <a href="http://vps0.naek.ca:8081">Live</a></span>
+        </ul>
+      </div>
+      <div class="project-item">
+        <span>Todo List | <a href="https://github.com/naek2k/todo-list">GitHub</a> | <a href="http://vps0.naek.ca:8081">Live</a></span>
+        <ul>
           <li>NodeJS, Express, Lowdb, jQuery, Bootstrap</li>
           <li>A simple todo list with persistent storage.</li>
-          <span>Typing Test | <a href="https://github.com/naek2k/typing-test">GitHub</a> | <a href="https://naek.ca/typing-test">Live</a></span>
+        </ul>
+      </div>
+    </div>
+    <div class="project-container">
+      <div class="project-item">
+        <span>Typing Test | <a href="https://github.com/naek2k/typing-test">GitHub</a> | <a href="https://naek.ca/typing-test">Live</a></span>
+        <ul>
           <li>jQuery, UnderscoreJS</li>
           <li>An entirely client side typing test.</li>
-          <span>Online Trivia Game | <a href="https://github.com/naek2k/online-trivia-game">GitHub</a> | <a href="http://vps0.naek.ca:8082/">Live</a></span>
+        </ul>
+      </div>
+      <div class="project-item">
+        <span>Online Trivia Game | <a href="https://github.com/naek2k/online-trivia-game">GitHub</a> | <a href="http://vps0.naek.ca:8082/">Live</a></span>
+        <ul>
           <li>NodeJS, Express, SocketIO</li>
           <li>A multiplayer trivia site.</li>
-          <span>NAEK Bot (Discord) | <a href="https://github.com/naek2k/naek-bot-discord">GitHub</a></span>
+        </ul>
+      </div>
+    </div>
+    <div class="project-container">
+      <div class="project-item">
+        <span>NAEK Bot (Discord) | <a href="https://github.com/naek2k/naek-bot-discord">GitHub</a></span>
+        <ul>
           <li>NodeJS, Lowdb, DiscordJS</li>
           <li>A role management discord bot.</li>
-          <span>NAEK.ca | <a href="https://github.com/naek2k/naekca">GitHub</a></span>
+        </ul>
+      </div>
+      <div class="project-item">
+        <span>NAEK.ca | <a href="https://github.com/naek2k/naekca">GitHub</a></span>
+        <ul>
           <li>HTML, CSS</li>
           <li>My personal site.</li>
-        </div>
+        </ul>
       </div>
     </div>
     <p style="text-align: center;">&copy NAEK 2020</p>
   </body>
 </html>
+
+<style>
+  :root {
+    --global-font-size: 15px;
+    --global-line-height: 1.4em;
+    --global-space: 10px;
+    --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --background-color: #222225;
+    --page-width: 60em;
+    --font-color: #e8e9ed;
+    --invert-font-color: #222225;
+    --secondary-color: #a3abba;
+    --tertiary-color: #a3abba;
+    --primary-color: #62c4ff;
+    --error-color: #ff3c74;
+    --progress-bar-background: #3f3f44;
+    --progress-bar-fill: #62c4ff;
+    --code-bg-color: #3f3f44;
+    --input-style: solid;
+    --display-h1-decoration: none;
+  }
+</style>
