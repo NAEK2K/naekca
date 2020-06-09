@@ -17,7 +17,6 @@ body {
     flex-direction: column;
   }
   .project-item {
-    max-width: 600px;
     width: auto;
   }
 }
